@@ -32,7 +32,7 @@ void ofApp::draw(){
     ofLine(0, mouseY, mouseX, mouseY);
     ofLine(mouseX, mouseY, 1024, mouseY);
     ofLine(mouseX, 0, mouseX, mouseY);
-    ofLine(mouseX, mouseY, mouseX, 1024);
+    ofLine(mouseX, mouseY, mouseX, 768);
   
     if(0<= atan2(y+PI*2,x+PI*2)*180/PI && atan2(y+2*PI,x+2*PI)*180/PI<=180){
         ofSetColor
